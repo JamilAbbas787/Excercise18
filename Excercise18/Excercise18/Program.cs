@@ -21,7 +21,6 @@ namespace Excercise18
             {
                 combinedAnswer = combinedAnswer + i;
                 Console.WriteLine(combinedAnswer);
-
             }
 
             Console.Write("Would you like to continue (y/n): ");
@@ -57,11 +56,8 @@ namespace Excercise18
             else
                 {
                 Console.WriteLine("Invalid Entry, GoodBye!!");
-                }
-           
+                }           
             Console.ReadKey(); 
-        }
-             
-    }
-    
+        }             
+    }   
 }
