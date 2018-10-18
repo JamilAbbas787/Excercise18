@@ -58,10 +58,7 @@ namespace Excercise18
                 {
                 Console.WriteLine("Invalid Entry, GoodBye!!");
                 }
-
-
-            
-
+           
             Console.ReadKey(); 
         }
              
