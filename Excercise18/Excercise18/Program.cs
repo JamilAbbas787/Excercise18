@@ -48,8 +48,8 @@ namespace Excercise18
                     continueQuestion = Console.ReadLine();
                     continue;
                 }
-
-                }
+                Console.WriteLine("GoodBye!!");
+            }
             else if (continueQuestion.Equals("n", StringComparison.OrdinalIgnoreCase))
                 {
                 Console.WriteLine("GoodBye!!");
@@ -60,7 +60,7 @@ namespace Excercise18
                 }
 
 
-            Console.WriteLine("GoodBye!!");
+            
 
             Console.ReadKey(); 
         }
